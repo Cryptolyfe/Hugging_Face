@@ -33,13 +33,17 @@ It will also generate an audio file in the project folder of sample story:
 ![krbylogo](media/audio2.png)
 
 <br>
+<br>
 The page will load a dropable window...
+<br>
 <br>
 
 ![krbylogo](media/photo3.png)
 
 <br>
+<br>
  Drag and drop any photo into the window. (keep in mind some file formats are not accepted)
+<br>
 <br>
 
 ![krbylogo](media/photo4.png)
