@@ -9,7 +9,6 @@
 
 <br>
 
-
 ![krbylogo](media/photo1.png)
 
 <br>
