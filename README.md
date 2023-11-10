@@ -5,7 +5,7 @@
 <br>
 <br>
 
-### After cloning the repo, CD to the project directory and run: 
+#### After cloning the repo, CD to the project directory and run: 
 
 <br>
 
