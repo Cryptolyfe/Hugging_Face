@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<p> **After cloning the repo, cd to the project directory and run:**
+<p> After cloning the repo, cd to the project directory and run:
 
 <br>
 
@@ -22,7 +22,7 @@
 <br>
 <br>
 
-**This will launch a local page in your default web browser.**
+This will launch a local page in your default web browser.
 
 <br>
 <br>
