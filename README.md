@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<p></p> After cloning the repo, CD to the project directory and run: 
+<p>After cloning the repo, CD to the project directory and run: 
 
 <br>
 
@@ -66,7 +66,7 @@ Scroll below the image and click the play button to hear the audio!
 <br>
 
 ![krbylogo](media/photo7.png)
-
+</p> 
 
 
 
