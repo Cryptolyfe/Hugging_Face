@@ -22,7 +22,9 @@ You will also see the LLM generate the sample story based on the sample photogra
 ![krbylogo](media/photo2.png)
 
 <br>
+<br>
 It will also generate an audio file in the project folder of sample story:
+<br>
 <br>
 
 ![krbylogo](media/photoaudio.png)
