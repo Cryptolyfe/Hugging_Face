@@ -17,6 +17,7 @@ This will launch a local page in your default web browser.
 <br>
 <br>
 <br>
+<br>
 
 You will also see the LLM generate the sample story based on the sample photograph in the project folder:
 <br>
