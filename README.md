@@ -12,7 +12,7 @@
 ![krbylogo](media/photo1.png)
 
 <br>
-P.S. If you need to insta;; streamlit run: 
+If you need to insta;; streamlit run: 
 <br>
 
 ![krbylogo](media/streamlit.png)
