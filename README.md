@@ -1,7 +1,11 @@
 # Hugging_Face
+
 A demo of Text to speech and other Hugging face models:
 <br>
+<br>
 After cloning the repo, CD to the project directory and run: 
+<br>
+<br>
 
 ![krbylogo](media/photo1.png)
 
