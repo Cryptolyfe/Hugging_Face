@@ -30,7 +30,7 @@ It will also generate an audio file in the project folder of sample story:
 <br>
 <br>
 
-![krbylogo](media/photoaudio.png)
+![krbylogo](media/audio2.png)
 
 <br>
 The page will load a dropable window...
