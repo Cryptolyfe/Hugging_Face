@@ -50,7 +50,7 @@ The page will load a dropable window...
 <br>
 <br>
 
-![krbylogo](media/photo3.png)
+![krbylogo](media/better.png)
 
 <br>
 <br>
