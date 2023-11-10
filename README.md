@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<p>After cloning the repo, CD to the project directory and run: 
+<p> After cloning the repo, CD to the project directory and run: 
 
 <br>
 
@@ -15,10 +15,6 @@
 <br>
 This will launch a local page in your default web browser. 
 <br>
-<br>
-
-![krbylogo](media/photo0000.png)
-
 <br>
 You will also see the LLM generate the sample story based on the sample photograph in the project folder:
 <br>
@@ -66,6 +62,7 @@ Scroll below the image and click the play button to hear the audio!
 <br>
 
 ![krbylogo](media/photo7.png)
+
 </p> 
 
 
