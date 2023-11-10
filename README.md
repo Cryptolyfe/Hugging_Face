@@ -13,7 +13,9 @@
 ![krbylogo](media/photo1.png)
 
 <br>
+<br>
 This will launch a local page in your default web browser. 
+<br>
 <br>
 <br>
 
