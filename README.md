@@ -13,10 +13,10 @@
 
 <br>
 
-> If you need to install streamlit run: <
+ If you need to install streamlit run: 
 <br>
 
-> ![krbylogo](media/streamlit.png) <
+ ![krbylogo](media/streamlit.png) 
 
 
 <br>
