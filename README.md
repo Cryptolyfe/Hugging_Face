@@ -12,6 +12,10 @@
 ![krbylogo](media/photo1.png)
 
 P.S. If you need to insta;; streamlit run: 
+
+![krbylogo](media/streamlit.png)
+
+
 <br>
 <br>
 This will launch a local page in your default web browser. 
