@@ -4,10 +4,11 @@
 
 <br>
 <br>
+
+### After cloning the repo, CD to the project directory and run: 
+
 <br>
-After cloning the repo, CD to the project directory and run: 
-<br>
-<br>
+
 
 ![krbylogo](media/photo1.png)
 
