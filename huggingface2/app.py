@@ -63,7 +63,7 @@ def text2speech(message):
         
 
 # Call the function with your message
-scenario = img2text(image)
+scenario = img2text(cat.jpeg)
 story = generate_story(scenario)
 text2speech(story)
 
