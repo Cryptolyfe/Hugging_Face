@@ -66,7 +66,10 @@ def text2speech(message):
 
 # Call the function with your message
 
-scenario = img2text("cat.jpeg")
+image_path = os.path.abspath("cat.jpeg")
+scenario = img2text(image_path)
+
+#scenario = img2text("cat.jpeg")
 story = generate_story(scenario)
 text2speech(story)
 
