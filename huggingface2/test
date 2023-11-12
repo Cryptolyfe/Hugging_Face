@@ -1,11 +1,1 @@
-import openai
 
-openai.api_key = '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'
-
-# Perform a simple API call to test
-response = openai.Completion.create(
-    engine="text-davinci-002",
-    prompt="This is a test."
-)
-
-print(response)
