@@ -1,4 +1,4 @@
-npm install --save dotenv 
+
 
 from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
