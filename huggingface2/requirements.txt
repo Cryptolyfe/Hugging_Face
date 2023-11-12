@@ -3,3 +3,4 @@ requests==2.31.0
 streamlit==1.27.2
 langchain==0.0.326
 transformers==4.35.0
+tensorflow==2.14.0
