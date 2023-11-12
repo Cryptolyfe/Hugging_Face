@@ -1,13 +1,13 @@
 
 
-#from dotenv import find_dotenv, load_dotenv
+from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 from langchain import PromptTemplate, LLMChain, OpenAI
 import os
 import requests
 import streamlit as st
 
-#load_dotenv(find_dotenv())
+load_dotenv(find_dotenv())
 HUGGINGFACEHUB_API_KEY = os.getenv("HUGGINGFACEHUB_API_KEY")
 
 # image2text
