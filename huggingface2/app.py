@@ -62,7 +62,7 @@ def text2speech(message):
         print(f"Error: {response.status_code} - {response.text}")
 
 # Call the function with your message
-scenario = img2text("cat.jpeg")
+scenario = img2text("https://freeimage.host/i/JCqUD1s")
 story = generate_story(scenario)
 text2speech(story)
 
