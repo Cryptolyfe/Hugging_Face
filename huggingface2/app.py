@@ -65,13 +65,9 @@ def text2speech(message):
         
 
 # Call the function with your message
+image_path = os.path.abspath("cat.jpeg")
 
-import base64
-
-with open("cat.jpeg", "rb") as image_file:
-    encoded_image = base64.b64encode(image_file.read()).decode("utf-8")
-
-scenario = img2text(encoded_image)
+scenario = img2text("cat.jpeg")
 #scenario = img2text("/cat.jpeg")
 story = generate_story(scenario)
 text2speech(story)
