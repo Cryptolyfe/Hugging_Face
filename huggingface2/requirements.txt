@@ -1,0 +1,7 @@
+#Flask==2.0.1
+#gunicorn==20.1.0
+python-dotenv==1.0.0
+requests==2.31.0
+streamlit==1.27.2
+langchain==0.0.326
+transformers==4.34.0
