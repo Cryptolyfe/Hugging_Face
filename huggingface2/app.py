@@ -60,9 +60,10 @@ def text2speech(message):
         print("Audio file saved as 'audio.mp3'")
     else:
         print(f"Error: {response.status_code} - {response.text}")
-
+        
+Uimage= "https://freeimage.host/i/JCqUD1s"
 # Call the function with your message
-scenario = img2text("https://freeimage.host/i/JCqUD1s")
+scenario = img2text("Uimage")
 story = generate_story(scenario)
 text2speech(story)
 
