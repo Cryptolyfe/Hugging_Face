@@ -7,6 +7,10 @@ import os
 import requests
 import streamlit as st
 
+
+print("Current Working Directory:", os.getcwd())
+
+
 load_dotenv(find_dotenv())
 HUGGINGFACEHUB_API_KEY = os.getenv("HUGGINGFACEHUB_API_KEY")
 
