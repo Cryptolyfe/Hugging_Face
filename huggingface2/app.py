@@ -1,23 +1,40 @@
-
-
 from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 from langchain import PromptTemplate, LLMChain, OpenAI
 import os
 import requests
 import streamlit as st
-
-
+import io  # Add this import for handling image data
 
 load_dotenv(find_dotenv())
 HUGGINGFACEHUB_API_KEY = os.getenv("HUGGINGFACEHUB_API_KEY")
 
 # image2text
-def img2text(url):
-    image_to_text = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
-    text = image_to_text(url)[0]["generated_text"]
-    print(text)
-    return text
+def load_image(image, timeout=None):
+    try:
+        # If the input starts with a forward slash, assume it's a local file path
+        if image.startswith("/"):
+            with open(image, "rb") as image_file:
+                image_data = image_file.read()
+        else:
+            # If not a local file path, treat it as a URL
+            response = requests.get(image, stream=True, timeout=timeout)
+            response.raise_for_status()
+            image_data = response.content
+
+        return Image.open(io.BytesIO(image_data))
+    except Exception as e:
+        raise ValueError(f"Incorrect image source. {e}")
+
+def img2text(url_or_path):
+    try:
+        image = load_image(url_or_path)
+        image_to_text = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
+        text = image_to_text(image)[0]["generated_text"]
+        print(text)
+        return text
+    except Exception as e:
+        return f"Error: {e}"
 
 # llm
 def generate_story(scenario):
@@ -66,10 +83,7 @@ def text2speech(message):
 
 # Call the function with your message
 
-image_path = os.path.abspath("cat.jpeg")
-scenario = img2text(image_path)
-
-#scenario = img2text("cat.jpeg")
+scenario = img2text("cat.jpeg")
 story = generate_story(scenario)
 text2speech(story)
 
@@ -99,4 +113,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
