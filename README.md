@@ -46,7 +46,7 @@ It will also generate an audio file in the project folder of sample story:
 
 <br>
 <br>
-The page will load a dropable window...
+The page will load a drop window...
 <br>
 <br>
 
