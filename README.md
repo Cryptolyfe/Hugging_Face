@@ -5,7 +5,9 @@
 <br>
 <br>
 
-<p> - After cloning the repo, cd to the project directory and run:
+<p> 
+ 
+ - After cloning the repo, cd to the project directory and run:
 
 <br>
 
