@@ -1,5 +1,5 @@
-# Hugging Face:
-## A demo of Text to speech and other Hugging face models:
+# Hugging Face Demo:
+## A demo of Image to Text and Text to Speech Hugging Face models:
 
 
 <br>
